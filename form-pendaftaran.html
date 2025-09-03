@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum PABWE 1</title>
+  </head>
+  <body>
+    <h1>Form Pendaftaran</h1>
+
+    <nav>
+      <a href="blog.html">Blog</a> |
+      <a href="form-pendaftaran.html">Form Pendaftaran</a> |
+      <a href="tabel-nilai.html">Tabel Perolehan Nilai</a> |
+      <a href="cv.html">Curriculum Vitae</a>
+    </nav>
+    <hr />
+
+    <form action="#" method="post">
+      <p>
+        <label
+          >Nama Lengkap:<br />
+          <input type="text" name="nama_lengkap" required />
+        </label>
+      </p>
+
+      <p>
+        Jenis Kelamin:<br />
+        <label><input type="radio" name="jk" value="L" /> Laki-laki</label>
+        <label><input type="radio" name="jk" value="P" /> Perempuan</label>
+      </p>
+
+      <p>
+        <label
+          >Tempat Lahir:<br />
+          <input type="text" name="tempat_lahir" />
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Tanggal Lahir:<br />
+          <input type="date" name="tanggal_lahir" />
+        </label>
+      </p>
+
+      <p>
+        Hobi (boleh lebih dari satu):<br />
+        <label
+          ><input type="checkbox" name="hobi" value="Membaca" /> Membaca</label
+        >
+        <label
+          ><input type="checkbox" name="hobi" value="Olahraga" />
+          Olahraga</label
+        >
+        <label><input type="checkbox" name="hobi" value="Musik" /> Musik</label>
+        <label
+          ><input type="checkbox" name="hobi" value="Menulis" /> Menulis</label
+        >
+      </p>
+
+      <p>
+        <label
+          >Password:<br />
+          <input type="password" name="password" />
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input type="checkbox" name="setuju" required /> Saya menyetujui
+          syarat dan ketentuan
+        </label>
+      </p>
+
+      <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+  </body>
+</html>
